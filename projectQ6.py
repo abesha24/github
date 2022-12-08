@@ -34,3 +34,5 @@ for i in range(allowance):
 
 for i in range(candy_list):
 print(candy_list[i])
+
+# it will print the cart of the candy 
