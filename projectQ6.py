@@ -1,5 +1,5 @@
 #6) In this activity, you will create the code that a candy store will use in their state-of-the-art candy vending machine.
-
+# this is already checked
         # Instructions
         # Create a loop that prints all of the candies in the store to the terminal, with their index stored in brackets beside them.
 
@@ -23,7 +23,7 @@ print("Welcome to Group Three Candy Vending Machine: ")
 n=len(candy)
 for i in range(n):
         print('['+ str(i)+']'+ '........> '+candy[i])
-        
+
 print('.......................................')
 candy_list=''
 allowance=5
@@ -31,6 +31,6 @@ allowance=5
 for i in range(allowance):
         m=input('Please select your favorite:'+ str(i+1)+ ' ')
         candy_list+=m
-        
+
 for i in range(candy_list):
 print(candy_list[i])
