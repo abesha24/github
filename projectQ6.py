@@ -18,7 +18,7 @@
         # Create a version of the code that allows a user to select as much candy as they want until they say they do not want any more.
 
 candy = ['Snicker', 'Kit Kat','Lollypop','Mints','M&MS','Hersheys','Skittles','Twix','Milkyway','Starburst']
-
+# include  the allowance accept from user accordingly
 print("Welcome to Group Three Candy Vending Machine: ")
 n=len(candy)
 for i in range(n):
@@ -35,4 +35,4 @@ for i in range(allowance):
 for i in range(candy_list):
 print(candy_list[i])
 
-# it will print the cart of the candy 
+# it will print the cart of the candy
